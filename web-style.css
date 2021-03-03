@@ -8,10 +8,9 @@ a{
     color: rgb(35, 124, 160);
 }
 #active{
-    list-style-type: none;
     background-image: url("imgs/li-marker.jpg");
     background-repeat: no-repeat;
-    background-position: left center;
+    background-position: left;
     background-size: 50px;
     padding-left: 50px;
 }
