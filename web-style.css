@@ -1,0 +1,37 @@
+a{
+    color: black;
+    text-decoration: none;
+}
+.idx{
+    margin-bottom: 25px;
+    font-weight: bold;
+    color: rgb(35, 124, 160);
+}
+#active{
+    list-style-type: none;
+    background-image: url("imgs/li-marker.jpg");
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-size: 50px;
+    padding-left: 50px;
+}
+#header{
+    display: grid;
+    grid-template-columns: 106px 160px 106px 1fr;
+    border-bottom: rgb(35, 124, 160) 3px solid;
+}
+#header h1{
+    font-size: 20px;
+    color: rgb(35, 124, 160);
+    padding-left: 10px;
+    padding-right: 10px;
+    justify-content: center;
+    text-align: center;
+}
+#header img{
+    width: 100px;
+    height: 57px;
+    object-fit: cover;
+    border: 3px solid rgb(35, 124, 160);
+    border-radius: 10px;
+}
