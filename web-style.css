@@ -2,24 +2,45 @@ a{
     color: black;
     text-decoration: none;
 }
-.idx{
+.sidebar{
+    border-right: rgb(35, 124, 160) 3px solid; 
+    padding-right: 20px;
+    width: 192px; 
+    height: 600px;
+}
+.sidebar ul{
+    margin: 0px; 
+    padding: 25px 0px 0px 20px; 
+    list-style-type: none;
+    width: 100px;
+}
+
+.sidebar ul li{
     margin-bottom: 25px;
     font-weight: bold;
     color: rgb(35, 124, 160);
 }
-#active{
+.contents{
+    width: 90%;
+    margin: 0px 0px 0px 0px;
+    display: flex
+}
+.post{
+    margin: 20px 0px 0px 20px;
+}
+.active{
     background-image: url("imgs/li-marker.jpg");
     background-repeat: no-repeat;
     background-position: left;
     background-size: 50px;
     padding-left: 50px;
 }
-#header{
+.header{
     display: grid;
     grid-template-columns: 106px 160px 106px 1fr;
     border-bottom: rgb(35, 124, 160) 3px solid;
 }
-#header h1{
+.header h1{
     font-size: 20px;
     color: rgb(35, 124, 160);
     padding-left: 10px;
@@ -27,7 +48,7 @@ a{
     justify-content: center;
     text-align: center;
 }
-#header img{
+.header img{
     width: 100px;
     height: 57px;
     object-fit: cover;
