@@ -5,7 +5,7 @@ a{
 .sidebar{
     border-right: rgb(35, 124, 160) 3px solid; 
     padding-right: 20px;
-    width: 192px; 
+    width: 152px; 
     height: 600px;
 }
 .sidebar ul{
@@ -27,6 +27,15 @@ a{
 }
 .post{
     margin: 20px 0px 0px 20px;
+    font-family: "Gulim";
+}
+.post img{
+    object-fit: cover;
+    margin-top: 50px;
+}
+.post table, th, td{
+    border: 3px solid rgb(35, 124, 160);
+    border-radius: 15px;
 }
 .active{
     background-image: url("imgs/li-marker.jpg");
