@@ -58,7 +58,7 @@
     display: flex;
     width: 1100px;
     font-family: "Gulim";
-    flex-flow: column wrap;
+    flex-flow: column nowrap;
     justify-content: center;
     align-items: center;
 }
@@ -71,14 +71,13 @@
     border: 1px solid rgb(35, 124, 160);
     padding: 7px;
 }
-.post .img{
-    flex-flow: row wrap;
-}
-.post .img img{
-    width: 300px;
-}
-.post .txt{
-    padding: 0px 0px 50px 50px;
+.post .item{
+    display: flex;
+    font-family: "Gulim";
+    flex-flow: row nowrap;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: rgb(192, 243, 235);
 }
 
 /* anchor */
