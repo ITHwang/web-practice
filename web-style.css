@@ -67,9 +67,15 @@
     border-collapse: collapse;
     margin-top: 30px;
 }
-.post th, td{
+.post td{
     border: 1px solid rgb(35, 124, 160);
     padding: 7px;
+    text-align: center;
+}
+.post th{
+    border: 1px solid rgb(35, 124, 160);
+    padding: 7px;
+    border-bottom: 3px solid rgb(35, 124, 160);
 }
 .post .item{
     display: flex;
