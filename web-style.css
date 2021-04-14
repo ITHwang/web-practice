@@ -19,13 +19,17 @@
     border: 3px solid rgb(35, 124, 160);
     border-radius: 10px;
 }
+.ps{
+    padding-left: 570px;
+    font-size: 12px;
+}
 
 /* contents */
 .contents{
     width: 90%;
     margin: 0px 0px 0px 0px;
     display: flex;
-    flex-flow: row wrap;
+    flex-flow: row nowrap;
 }
 
 /* sidebar */
@@ -56,7 +60,7 @@
 /* post */
 .post{
     display: flex;
-    width: 1100px;
+    width: 1000px;
     font-family: "Gulim";
     flex-flow: column nowrap;
     justify-content: center;
@@ -65,7 +69,7 @@
 .post table{
     border: 3px solid rgb(35, 124, 160);
     border-collapse: collapse;
-    margin-top: 30px;
+    margin: 30px 0px 0px 30px;
 }
 .post td{
     border: 1px solid rgb(35, 124, 160);
@@ -91,3 +95,15 @@ a{
     color: black;
     text-decoration: none;
 }
+
+@media(max-width: 1200px){
+    .ps{
+        display: none;
+    }
+}
+@media(max-width: 900px){
+    .post img{
+        display: none;
+    }
+}
+    
