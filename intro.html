@@ -10,7 +10,7 @@
             <img src="imgs/cau-logo.gif" alt="cau logo">
             <a href="intro.html"><h1>중앙대학교<br>러시아어문학과</h1></a>
             <img src="imgs/rus-double-headed-eagle.jpg" alt="double-headed-eagle">
-            <input type="button" value="night" style="margin-left: 400px;" onclick="
+            <!-- <input type="button" value="night" style="margin-left: 400px;" onclick="
             document.querySelector('body').style.backgroundColor='black';
             document.querySelector('body').style.color='white'
             document.querySelector('a').style.color='white'
@@ -18,6 +18,18 @@
             <input type="button" value="day" style="margin-left: 20px;" onclick="
             document.querySelector('body').style.backgroundColor='white';
             document.querySelector('body').style.color='black'
+            "> -->
+            <input type="button" value="night" onclick="
+                var target = document.querySelector('body');
+                if (this.value === 'night'){
+                    target.style.backgroundColor = 'black';
+                    target.style.color = 'white';
+                    this.value = 'day';
+                } else {
+                    target.style.backgroundColor = 'white';
+                    target.style.color = 'black';
+                    this.value = 'night';
+                }
             ">
             <div class="ps">중앙대학교 러시아어문학과 졸업생이 웹 프로젝트로 만든 가상 학과 홈페이지입니다. 재미로 봐주세요!</div>
         </div>
